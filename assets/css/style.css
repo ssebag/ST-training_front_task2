@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee; 
+    height:100vh; 
+    display: flex;
+    flex-wrap: wrap;  
+}
+.part1,.part2,.part3,.part4{
+    width: 50%;
+    height: 50vh;
+    border:1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .f_France  ,.f_Syria, .f_Italy , .f_Belgium{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+.f_France div, .f_Italy div ,.f_Belgium div{
+    width: 35%;
+    height: 100%;
+}
+.f_Syria{
+    flex-direction: column;
+}
+.f_Syria div{
+    width: 100%;
+    height: 35%;
+}
+.c_red{
+    background-color: red;
+}
+.c_white{
+    background-color: white;
+}
+.c_blue{
+    background-color: blue;
+}
+.c_black{
+    background-color: black;
+}
+.c_yellow{
+    background-color: yellow;
+}
+.startDiv{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.startDiv span {
+    color: green;
+    font-size: 4rem;
+}
+.c_green{
+    background-color: green;
+}
